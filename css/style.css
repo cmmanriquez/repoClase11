@@ -1,6 +1,9 @@
-h1{
-    background-color: beige;
+div{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    transition: width 2s;
 }
-.rama{
-    background-color: plum;
+div:hover{
+    width: 400px;
 }
